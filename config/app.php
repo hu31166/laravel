@@ -123,7 +123,7 @@ return [
 
     'providers' => [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-
+        \Latrell\Swagger\SwaggerServiceProvider::class,
 
         /*
          * Laravel Framework Service Providers...
